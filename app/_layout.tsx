@@ -24,6 +24,10 @@ export default function TabsLayout() {
         name="mango"
         options={{ tabBarLabel: "Mango", tabBarIcon: () => null }}
       />
+      <Tabs.Screen
+        name="lab3/index"
+        options={{ tabBarLabel: "Lab 3", tabBarIcon: () => null }}
+      />
     </Tabs>
   );
 }
