@@ -19,6 +19,9 @@ export default function App() {
       <TouchableOpacity onPress={() => router.push("/lab3/")}>
         <Text style={styles.ListButtons}>{"lab 3"}</Text>
       </TouchableOpacity>
+      <TouchableOpacity onPress={() => router.push("/lab4/")}>
+        <Text style={styles.ListButtons}>{"lab 4"}</Text>
+      </TouchableOpacity>
     </View>
   );
 }
